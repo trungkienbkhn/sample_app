@@ -1,0 +1,20 @@
+vi:
+  static_pages:
+    home:
+      home: Trang chủ
+      title1: Ứng dụng mẫu
+      homepage: Đây là trang chủ của
+    help:
+      title2: Giúp đỡ
+      gethelp1: Để được trợ giúp về ruby on rails truy cập 
+      gethelp2: Để được trợ giúp về ứng dụng mẫu truy cập
+    about:
+      title3: Về ứng dụng
+      rb: Ruby on rails là tập hợp bao gồm 
+      book: sách
+      and: và
+      seri: các video 
+      web: dạy cách lập trình web với
+      app: Đây là một ứng dụng mẫu dùng để hướng dẫn.
+  english: Tiếng Anh
+  vietnam: Tiếng Việt
