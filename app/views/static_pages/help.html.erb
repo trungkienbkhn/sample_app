@@ -1,5 +1,5 @@
-<% provide(:title, (t ".title2")) %>
-<h2> 
+<% provide :title, t(".title2") %>
+<h2>
    <%= link_to t("english") , locale: "en" %>
    <%= link_to t("vietnam") , locale: "vi" %>
 </h2>
@@ -10,4 +10,3 @@
   <%= t ".gethelp2" %>
   <%= link_to "Ruby on Rails Tutorial", "https://www.railstutorial.org/book" %>
 </p>
-
