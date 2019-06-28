@@ -1,0 +1,15 @@
+<% provide(:title, (t ".title3")) %>
+<h2> 
+   <%= link_to t("english") , locale: "en" %>
+   <%= link_to t("vietnam") , locale: "vi" %>
+</h2>
+<h1><%= t ".title3" %></h1>
+<p>
+  <%= t ".rb" %>
+  <%= link_to (t ".book"), "https://www.railstutorial.org/book" %><%=  %> <%= t ".and" %>
+  <%= link_to (t ".seri"), "http://screencasts.railstutorial.org/" %><%=  %>
+  <%= t ".web" %>
+  <%= link_to "Ruby on Rails", "http://rubyonrails.org/" %>.
+  <%= t ".app" %>
+</p>
+
