@@ -3,7 +3,7 @@ en:
     home:
       home: Home
       title1: sample app
-      homepage: This is home page for the 
+      homepage: This is home page for the
     help:
       title2: Help
       gethelp1: Get help on the Ruby on Rails Tutorial at the
@@ -18,3 +18,4 @@ en:
       app: This is the sample application for the tutorial.
   english: English
   vietnam: Vietnamese
+  sample: Ruby on Rails Tutorial Sample App
