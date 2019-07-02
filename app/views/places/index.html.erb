@@ -1,0 +1,20 @@
+<% provide :title, @title %>
+<div class="col-md-4">
+  <h3 style="text-align:center;">Search</h3>
+  ABCXYZ
+</div>
+<div class="col-md-8">
+  <h3 style="text-align:center;">All <%= @title %></h3><br>
+  <% @places.each do |place| %>
+    <div class="col-md-4">
+      <%= image_tag place.photo.url, class: "img" if place.photo? %>
+    </div>
+    <div class="col-md-8">
+      Name: <%= place.name %><br>
+      Description: <%= place.description %><br>
+      Vote: <%= place.vote %><br>
+      Address: <%= place.address %><br>
+      Cost: <%= place.cost %><br>
+    </div>
+  <% end %>
+</div>

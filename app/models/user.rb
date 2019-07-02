@@ -1,6 +1,7 @@
 class User < ApplicationRecord
   attr_accessor :remember_token
   before_save :downcase_email
+  has_many :places, dependent: :destroy
   validates :name, presence: true,
                    length: {maximum: Settings.maximum_length_name}
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
@@ -10,7 +11,8 @@ class User < ApplicationRecord
                     uniqueness: {case_sensitive: false}
   has_secure_password
   validates :password, presence: true,
-                       length: {minimum: Settings.minimum_length_pass}
+                       length: {minimum: Settings.minimum_length_pass},
+                       allow_nil: true
 
   class << self
     def digest string

@@ -28,6 +28,12 @@ textarea {
   resize: vertical;
 }
 
+.img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+}
+
 .debug_dump {
   clear: both;
   float: left;
@@ -109,6 +115,16 @@ input {
 #session_remember_me {
   width: auto;
   margin-left: 0;
+}
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
 }
 
 .center {

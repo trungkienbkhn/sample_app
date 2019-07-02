@@ -35,18 +35,29 @@ vi:
       home: Trang chủ
       profile: Hồ sơ
       setting: Cài đặt
-      users: Người dùng
+      users: Thành viên
       login: Đăng nhập
       logout: Đăng xuất
       account: Tài khoản
   users:
     new:
       signup: Đăng ký
+      account: Tạo tài khoản của tôi
+    form:
       name: Tên
       email: Email
       pass: Mật khẩu
       confirmation: Xác nhận mật khẩu
-      account: Tạo tài khoản của tôi
+    user:
+      delete: Xóa
+      you_sure: Xác nhận xóa?
+    edit:
+      edit: Sửa tài khoản
+      save: Lưu thay đổi
+      update: Cập nhật hồ sơ của bạn
+      change: Thay đổi
+    index:
+      all: Thành viên
   shared:
     error_messages:
       contains: Trang đăng ký có
@@ -65,3 +76,8 @@ vi:
   welcome: Chào mừng đến với ứng dụng mẫu!
   error: Lỗi
   invalid: Email/Mật khẩu không hợp lệ
+  profile_updated: Đã cập nhật hồ sơ
+  user_deleted: Người dùng đã bị xóa
+  delete_failed: Xóa không thành công
+  please_login: Vui lòng đăng nhập.
+  not_found: Không tìm thấy người dùng
