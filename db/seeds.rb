@@ -1,8 +1,10 @@
-User.create!(name: Figaro.env.admin_name,
-             email: Figaro.env.admin_email,
-             password: Figaro.env.admin_pass,
-             password_confirmation: Figaro.env.admin_pass_confirmation,
-             admin: true)
+User.create!(name: ENV["ADMIN_NAME"],
+             email: ENV["ADMIN_EMAIL"],
+             password: ENV["ADMIN_PASS"],
+             password_confirmation: ENV["ADMIN_PASS_CONFIRMATION"],
+             admin: true,
+             activated: true,
+             activated_at: Time.zone.now)
 
 99.times do |n|
   name  = Faker::Name.name
@@ -11,5 +13,7 @@ User.create!(name: Figaro.env.admin_name,
   User.create!(name: name,
                email: email,
                password: password,
-               password_confirmation: password)
+               password_confirmation: password,
+               activated: true,
+               activated_at: Time.zone.now)
 end
