@@ -42,11 +42,22 @@ en:
   users:
     new:
       signup: Sign up
+      account: Create my account
+    form:
       name: Name
       email: Email
       pass: Password
       confirmation: Confirmation
-      account: Create my account
+    user:
+      delete: Delete
+      you_sure: You sure?
+    edit:
+      edit: Edit user
+      save: Save changes
+      update: Update your profile
+      change: Change
+    index:
+      all: All users
   shared:
     error_messages:
       contains: The form contains
@@ -65,3 +76,8 @@ en:
   welcome: Welcom to the sample app!
   error: Error
   invalid: Invalid email/password combination
+  profile_updated: Profile updated
+  user_deleted: User deleted
+  delete_failed: Delection failed
+  please_login: Please log in.
+  not_found: No user found
