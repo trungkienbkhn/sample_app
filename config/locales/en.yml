@@ -1,21 +1,34 @@
 en:
   static_pages:
     home:
-      home: Home
-      title1: sample app
+      sign: Sign up now!
+      welcom: welcom to the sample app
       homepage: This is home page for the
+      appli: sample application.
     help:
-      title2: Help
       gethelp1: Get help on the Ruby on Rails Tutorial at the
       gethelp2: To get help on this sample app, see the
     about:
-      title3: About
       rb: The Ruby on rails is a
       and: and
       book: book
       seri: screencast series
       web: to teach web development with
       app: This is the sample application for the tutorial.
+    contact:
+      contactrb: Contact the Ruby on Rails Tutorial about the sample app at the
+      contactpage: contact page
   english: English
   vietnam: Vietnamese
-  sample: Ruby on Rails Tutorial Sample App
+  sample: sample app
+  help: Help
+  home: Home
+  about: About
+  contact: Contact
+  log: Log in
+  news: News
+  ruby: Ruby on Rails Tutorial Sample App
+  the: The
+  by: by
+  signup: Sign up
+  signupuser: This will be a signup page for new users.

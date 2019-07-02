@@ -1,21 +1,34 @@
 vi:
   static_pages:
     home:
-      home: Trang chủ
-      title1: Ứng dụng mẫu
-      homepage: Đây là trang chủ của
+      sign: Đăng ký ngay!
+      welcome: Chào mừng đến với ứng dụng mẫu
+      homepage: Đây là trang chủ dành cho ứng dụng mẫu của
+      appli: .
     help:
-      title2: Giúp đỡ
       gethelp1: Để được trợ giúp về ruby on rails truy cập
       gethelp2: Để được trợ giúp về ứng dụng mẫu truy cập
     about:
-      title3: Về ứng dụng
       rb: Ruby on rails là tập hợp bao gồm
       book: sách
       and: và
       seri: các video
       web: dạy cách lập trình web với
       app: Đây là một ứng dụng mẫu dùng để hướng dẫn.
+    contact:
+      contactrb: Liên hệ hướng dẫn về Ruby on Rails về ứng dụng mẫu tại
+      contactpage: trang hướng dẫn
   english: Tiếng Anh
   vietnam: Tiếng Việt
-  sample: Ứng dụng hướng dẫn về Ruby on Rails
+  sample: Ứng dụng mẫu
+  help: Trợ giúp
+  home: Trang chủ
+  about: Về ứng dụng
+  contact: Liên hệ
+  log: Đăng nhập
+  news: Tin tức
+  ruby: Ứng dụng mẫu hướng dẫn Ruby on Rails
+  the: Hướng dẫn về
+  by: của
+  signup: Đăng ký
+  signupuser: Đây là trang đăng ký cho người dùng mới.
