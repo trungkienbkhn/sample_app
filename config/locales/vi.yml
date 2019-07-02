@@ -33,7 +33,12 @@ vi:
       sample: Ứng dụng mẫu
       help: Trợ giúp
       home: Trang chủ
-      log: Đăng nhập
+      profile: Hồ sơ
+      setting: Cài đặt
+      users: Người dùng
+      login: Đăng nhập
+      logout: Đăng xuất
+      account: Tài khoản
   users:
     new:
       signup: Đăng ký
@@ -46,8 +51,16 @@ vi:
     error_messages:
       contains: Trang đăng ký có
       error: lỗi
+  sessions:
+    new:
+      log: Đăng nhập
+      email: Email
+      pass: Mật khẩu
+      signup: Đăng ký ngay!
+      newuser: Tài khoản mới
   english: Tiếng Anh
   vietnam: Tiếng Việt
   ruby: Ứng dụng mẫu hướng dẫn Ruby on Rails
   welcome: Chào mừng đến với ứng dụng mẫu!
   error: Lỗi
+  invalid: Email/Mật khẩu không hợp lệ

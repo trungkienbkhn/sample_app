@@ -33,7 +33,12 @@ en:
       sample: sample app
       help: Help
       home: Home
-      log: Log in
+      profile: Profile
+      setting: Setting
+      users: Users
+      login: Log in
+      logout: Log out
+      account: Account
   users:
     new:
       signup: Sign up
@@ -46,8 +51,16 @@ en:
     error_messages:
       contains: The form contains
       error: error
+  sessions:
+    new:
+      log: Log in
+      email: Email
+      pass: Password
+      signup: Sign up now!
+      newuser: New user
   english: English
   vietnam: Vietnamese
   ruby: Ruby on Rails Tutorial Sample App
   welcome: Welcom to the sample app!
   error: Error
+  invalid: Invalid email/password combination
