@@ -1,10 +1,10 @@
-<% provide :title, (t"about") %>
+<% provide :title, t(".about") %>
 <div class="center jumbotron">
-  <h1><%= t "about" %></h1>
+  <h1><%= t ".about" %></h1>
   <h2>
     <%= t ".rb" %>
-    <%= link_to (t ".book"), "https://www.railstutorial.org/book" %><%=  %> <%= t ".and" %>
-    <%= link_to (t ".seri"), "http://screencasts.railstutorial.org/" %><%=  %>
+    <%= link_to t(".book"), "https://www.railstutorial.org/book" %><%=  %> <%= t ".and" %>
+    <%= link_to t(".seri"), "http://screencasts.railstutorial.org/" %><%=  %>
     <%= t ".web" %>
     <%= link_to "Ruby on Rails", "http://rubyonrails.org/" %>.
     <%= t ".app" %>

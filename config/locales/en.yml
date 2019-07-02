@@ -1,14 +1,17 @@
 en:
   static_pages:
     home:
+      home: Home
+      welcom: Welcom to the sample app!
       sign: Sign up now!
-      welcom: welcom to the sample app
       homepage: This is home page for the
       appli: sample application.
     help:
+      help: Help
       gethelp1: Get help on the Ruby on Rails Tutorial at the
       gethelp2: To get help on this sample app, see the
     about:
+      about: About
       rb: The Ruby on rails is a
       and: and
       book: book
@@ -16,19 +19,35 @@ en:
       web: to teach web development with
       app: This is the sample application for the tutorial.
     contact:
+      contact: Contact
       contactrb: Contact the Ruby on Rails Tutorial about the sample app at the
       contactpage: contact page
+  layouts:
+    footer:
+      the: The
+      by: by
+      about: About
+      contact: Contact
+      news: News
+    header:
+      sample: sample app
+      help: Help
+      home: Home
+      log: Log in
+  users:
+    new:
+      signup: Sign up
+      name: Name
+      email: Email
+      pass: Password
+      confirmation: Confirmation
+      account: Create my account
+  shared:
+    error_messages:
+      contains: The form contains
+      error: error
   english: English
   vietnam: Vietnamese
-  sample: sample app
-  help: Help
-  home: Home
-  about: About
-  contact: Contact
-  log: Log in
-  news: News
   ruby: Ruby on Rails Tutorial Sample App
-  the: The
-  by: by
-  signup: Sign up
-  signupuser: This will be a signup page for new users.
+  welcome: Welcom to the sample app!
+  error: Error
