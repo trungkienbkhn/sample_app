@@ -70,12 +70,28 @@ vi:
       signup: Đăng ký ngay!
       newuser: Tài khoản mới
       remember: Ghi nhớ tài khoản trên máy tính
+      forgot_pass: quên mật khẩu
   user_mailer:
     account_activation:
       sample_app: Ứng Dụng Mẫu
       hi: Chào
       welcome: Chào mừng đến với ứng dụng mẫu! Bấm vào đường dẫn bên dưới để kích hoạt tài khoản của bạn
       activate: Kích hoạt
+    password_reset:
+      pass_reset: Đặt lại mật khẩu
+      click_link: Để đặt lại mật khẩu bấm vào link bên dưới
+      expire: Liên kết này sẽ hết hạn trong hai giờ.
+      not_request: Nếu không muốn đặt lại mật khẩu, vui lòng bỏ qua email này. Mật khẩu của bạn sẽ được giữ nguyên
+  password_resets:
+    new:
+      forgot_pass: Quên mật khẩu
+      email: Email
+      submit: Gửi đi
+    edit:
+      reset_pass: Đặt lại mật khẩu
+      pass: Mật khẩu
+      confirmation: Xác nhận
+      update_pass: Cập nhật mật khẩu
   english: Tiếng Anh
   vietnam: Tiếng Việt
   ruby: Ứng dụng mẫu hướng dẫn Ruby on Rails
@@ -93,3 +109,9 @@ vi:
   not_activated: Tài khoản chưa được kích hoạt. Kiểm tra email của bạn cho đường dẫn kích hoạt.
   please_check: Vui lòng kiểm tra email để kích hoạt tài khoản của bạn
   activation: Kích hoạt tài khoản
+  sent_email: Đã gửi email kèm hướng dẫn đặt lại mật khẩu
+  email_notfound: Không tìm thấy địa chỉ email
+  empty: không để trống
+  pass_reset: Mật khẩu đã được đặt lại.
+  pass_expired: Mật khẩu đặt lại đã hết hạn.
+  pass_subject: Đặt lại mật khẩu
