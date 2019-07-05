@@ -1,14 +1,17 @@
 vi:
   static_pages:
     home:
+      home: Trang chủ
+      welcome: Chào mừng đến với ứng dụng mẫu!
       sign: Đăng ký ngay!
-      welcome: Chào mừng đến với ứng dụng mẫu
       homepage: Đây là trang chủ dành cho ứng dụng mẫu của
       appli: .
     help:
+      help: Trợ giúp
       gethelp1: Để được trợ giúp về ruby on rails truy cập
       gethelp2: Để được trợ giúp về ứng dụng mẫu truy cập
     about:
+      about: Về ứng dụng
       rb: Ruby on rails là tập hợp bao gồm
       book: sách
       and: và
@@ -16,19 +19,35 @@ vi:
       web: dạy cách lập trình web với
       app: Đây là một ứng dụng mẫu dùng để hướng dẫn.
     contact:
+      contact: Liên hệ
       contactrb: Liên hệ hướng dẫn về Ruby on Rails về ứng dụng mẫu tại
       contactpage: trang hướng dẫn
+  layouts:
+    footer:
+      the: Hướng dẫn về
+      by: của
+      about: Về ứng dụng
+      contact: Liên hệ
+      news: Tin tức
+    header:
+      sample: Ứng dụng mẫu
+      help: Trợ giúp
+      home: Trang chủ
+      log: Đăng nhập
+  users:
+    new:
+      signup: Đăng ký
+      name: Tên
+      email: Email
+      pass: Mật khẩu
+      confirmation: Xác nhận mật khẩu
+      account: Tạo tài khoản của tôi
+  shared:
+    error_messages:
+      contains: Trang đăng ký có
+      error: lỗi
   english: Tiếng Anh
   vietnam: Tiếng Việt
-  sample: Ứng dụng mẫu
-  help: Trợ giúp
-  home: Trang chủ
-  about: Về ứng dụng
-  contact: Liên hệ
-  log: Đăng nhập
-  news: Tin tức
   ruby: Ứng dụng mẫu hướng dẫn Ruby on Rails
-  the: Hướng dẫn về
-  by: của
-  signup: Đăng ký
-  signupuser: Đây là trang đăng ký cho người dùng mới.
+  welcome: Chào mừng đến với ứng dụng mẫu!
+  error: Lỗi
