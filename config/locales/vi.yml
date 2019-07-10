@@ -58,6 +58,7 @@ vi:
       pass: Mật khẩu
       signup: Đăng ký ngay!
       newuser: Tài khoản mới
+      remember: Ghi nhớ tài khoản trên máy tính
   english: Tiếng Anh
   vietnam: Tiếng Việt
   ruby: Ứng dụng mẫu hướng dẫn Ruby on Rails

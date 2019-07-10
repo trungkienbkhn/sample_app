@@ -58,6 +58,7 @@ en:
       pass: Password
       signup: Sign up now!
       newuser: New user
+      remember: Remember me on this computer
   english: English
   vietnam: Vietnamese
   ruby: Ruby on Rails Tutorial Sample App
