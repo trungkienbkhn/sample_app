@@ -1,9 +1,17 @@
 maximum_length_name: 50
 maximum_length_email: 255
 minimum_length_pass: 6
+maximum_length_content: 140
 paginate: 10
+picture_size: 5
 check_remember: 1
+time_expired: 2
+file_accept: image/jpeg,image/gif,image/png
 helper:
   size_gravatar: 80
 user:
+  size_gravatar: 50
+micropost:
+  image_width: 400
+  image_height: 400
   size_gravatar: 50
