@@ -70,6 +70,12 @@ en:
       signup: Sign up now!
       newuser: New user
       remember: Remember me on this computer
+  user_mailer:
+    account_activation:
+      sample_app: Sample App
+      hi: Hi
+      welcome: Welcome to the Sample App! Click on the link below to activate your account
+      activate: Activate
   english: English
   vietnam: Vietnamese
   ruby: Ruby on Rails Tutorial Sample App
@@ -81,3 +87,9 @@ en:
   delete_failed: Delection failed
   please_login: Please log in.
   not_found: No user found
+  please_login: Please log in.
+  activated: Account activated!
+  invalid_activation: Invalid activation link
+  not_activated: Account not activated. Check your email for the activation link.
+  please_check: Please check your email to activate your account.
+  activation: Account activation

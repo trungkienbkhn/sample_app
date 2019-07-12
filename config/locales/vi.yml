@@ -70,6 +70,12 @@ vi:
       signup: Đăng ký ngay!
       newuser: Tài khoản mới
       remember: Ghi nhớ tài khoản trên máy tính
+  user_mailer:
+    account_activation:
+      sample_app: Ứng Dụng Mẫu
+      hi: Chào
+      welcome: Chào mừng đến với ứng dụng mẫu! Bấm vào đường dẫn bên dưới để kích hoạt tài khoản của bạn
+      activate: Kích hoạt
   english: Tiếng Anh
   vietnam: Tiếng Việt
   ruby: Ứng dụng mẫu hướng dẫn Ruby on Rails
@@ -81,3 +87,9 @@ vi:
   delete_failed: Xóa không thành công
   please_login: Vui lòng đăng nhập.
   not_found: Không tìm thấy người dùng
+  please_login: Vui lòng đăng nhập.
+  activated: Tài khoản được kích hoạt!
+  invalid_activation: Đường dẫn kích hoạt không hợp lệ
+  not_activated: Tài khoản chưa được kích hoạt. Kiểm tra email của bạn cho đường dẫn kích hoạt.
+  please_check: Vui lòng kiểm tra email để kích hoạt tài khoản của bạn
+  activation: Kích hoạt tài khoản

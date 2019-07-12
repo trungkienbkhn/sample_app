@@ -2,6 +2,7 @@ maximum_length_name: 50
 maximum_length_email: 255
 minimum_length_pass: 6
 paginate: 10
+check_remember: 1
 helper:
   size_gravatar: 80
 user:
