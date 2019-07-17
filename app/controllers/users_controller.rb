@@ -13,7 +13,8 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find_by id: params[:id]
+    @microposts = @user.microposts.create_desc.page(params[:page])
+                       .per Settings.paginate
   end
 
   def create
@@ -47,6 +48,18 @@ class UsersController < ApplicationController
       flash[:danger] = t "delete_failed"
     end
     redirect_to users_url
+  end
+
+  def following
+    @title = "Following"
+    @users = @user.following.all.page(params[:page])
+    render "show_follow"
+  end
+
+  def followers
+    @title = "Followers"
+    @users = @user.followers.all.page(params[:page])
+    render "show_follow"
   end
 
   private
