@@ -6,6 +6,7 @@ en:
       sign: Sign up now!
       homepage: This is home page for the
       appli: sample application.
+      feed: Micropost Feed
     help:
       help: Help
       gethelp1: Get help on the Ruby on Rails Tutorial at the
@@ -58,10 +59,18 @@ en:
       change: Change
     index:
       all: All users
+    show:
+      micro: Microposts
   shared:
     error_messages:
       contains: The form contains
       error: error
+    micropost_form:
+      compose: Compose new micropost...
+      post: Post
+    user_info:
+      view: View my profile
+      micropost: micropost
   sessions:
     new:
       log: Log in
@@ -93,6 +102,12 @@ en:
       pass: Password
       confirmation: Confirmation
       update_pass: Update password
+  microposts:
+    micropost:
+      posted: posted
+      ago: ago
+      delete: Delete
+      you_sure: You sure?
   english: English
   vietnam: Vietnamese
   ruby: Ruby on Rails Tutorial Sample App
@@ -116,3 +131,8 @@ en:
   pass_reset: Password has been reset.
   pass_expired: Password reset has expired.
   pass_subject: Password reset
+  micropost_create: Micropost created!
+  micropost_delete: Micropost deleted
+  error_picture: should be less than 5MB
+  not_found_micropost: No micropost found
+  maximum_file: Maximum file size is 5MB. Please choose a smaller file.

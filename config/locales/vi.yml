@@ -6,6 +6,7 @@ vi:
       sign: Đăng ký ngay!
       homepage: Đây là trang chủ dành cho ứng dụng mẫu của
       appli: .
+      feed: Bài viết
     help:
       help: Trợ giúp
       gethelp1: Để được trợ giúp về ruby on rails truy cập
@@ -58,10 +59,18 @@ vi:
       change: Thay đổi
     index:
       all: Thành viên
+    show:
+      micro: Microposts
   shared:
     error_messages:
       contains: Trang đăng ký có
       error: lỗi
+    micropost_form:
+      compose: Soạn bài viết mới...
+      post: Đăng bài
+    user_info:
+      view: Xem hồ sơ của tôi
+      micropost: micropost
   sessions:
     new:
       log: Đăng nhập
@@ -81,7 +90,8 @@ vi:
       pass_reset: Đặt lại mật khẩu
       click_link: Để đặt lại mật khẩu bấm vào link bên dưới
       expire: Liên kết này sẽ hết hạn trong hai giờ.
-      not_request: Nếu không muốn đặt lại mật khẩu, vui lòng bỏ qua email này. Mật khẩu của bạn sẽ được giữ nguyên
+      not_request: Nếu không muốn đặt lại mật khẩu, vui lòng bỏ qua email này.
+                   Mật khẩu của bạn sẽ được giữ nguyên
   password_resets:
     new:
       forgot_pass: Quên mật khẩu
@@ -92,6 +102,12 @@ vi:
       pass: Mật khẩu
       confirmation: Xác nhận
       update_pass: Cập nhật mật khẩu
+  microposts:
+    micropost:
+      posted: Đã đăng
+      ago: trước đó
+      delete: Xóa
+      you_sure: Xác nhận xóa?
   english: Tiếng Anh
   vietnam: Tiếng Việt
   ruby: Ứng dụng mẫu hướng dẫn Ruby on Rails
@@ -115,3 +131,8 @@ vi:
   pass_reset: Mật khẩu đã được đặt lại.
   pass_expired: Mật khẩu đặt lại đã hết hạn.
   pass_subject: Đặt lại mật khẩu
+  micropost_create: Đã tạo một bài viết mới!
+  micropost_delete: Đã xóa bài viết
+  error_picture: nên để nhỏ hơn 5MB
+  not_found_micropost: Không tìm thấy bài viết
+  maximum_file: Kích thước lớn nhất của file là 5MB. Vui lòng chọn một file nhỏ hơn.
