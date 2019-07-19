@@ -61,6 +61,13 @@ vi:
       all: Thành viên
     show:
       micro: Microposts
+    follow:
+      follow: Theo dõi
+    unfollow:
+      unfollow: Bỏ theo dõi
+    show_follow:
+      view: Xem hồ sơ của tôi
+      micro: Bài viết
   shared:
     error_messages:
       contains: Trang đăng ký có
@@ -71,6 +78,9 @@ vi:
     user_info:
       view: Xem hồ sơ của tôi
       micropost: micropost
+    stats:
+      following: Theo dõi
+      followers: Người theo dõi
   sessions:
     new:
       log: Đăng nhập

@@ -61,6 +61,13 @@ en:
       all: All users
     show:
       micro: Microposts
+    follow:
+      follow: Follow
+    unfollow:
+      unfollow: Unfollow
+    show_follow:
+      view: view my profile
+      micro: Micropost
   shared:
     error_messages:
       contains: The form contains
@@ -71,6 +78,9 @@ en:
     user_info:
       view: View my profile
       micropost: micropost
+    stats:
+      following: following
+      followers: followers
   sessions:
     new:
       log: Log in
