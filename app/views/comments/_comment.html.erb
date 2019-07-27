@@ -1,0 +1,11 @@
+<div class="comment-content">
+  <%= link_to comment.user.name, comment.user %>
+  <%= comment.content %></br>
+  <span class="timestamp">
+    <%= time_ago_in_words comment.created_at %>
+    <% if comment.user == current_user %>
+      <%= link_to "Delete", micropost_comment_path(micropost, comment), remote: true,
+        method: :delete, data: { confirm: "Are you sure ?" }, class: "delete-comment" %>
+    <% end %>
+  </span>
+</div>

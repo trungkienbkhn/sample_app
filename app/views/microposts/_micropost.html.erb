@@ -13,4 +13,20 @@
         data: { confirm: t(".you_sure") } %>
     <% end %>
   </span>
+  <%= form_for [micropost, @comment], remote: true do |f| %>
+    <%= render "shared/error_messages", object: f.object %>
+    <div class="text-comment">
+      <%= f.text_field :content, placeholder: "Add comment", class: "form-control",
+        id: "comment-content-#{micropost.id}" %>
+    </div>
+    <%= f.submit "Comment", class: "btn btn-primary" %>
+  <% end %><br>
+  <i class="far fa-thumbs-up fa-2x"></i>
+  <i class="far fa-comment fa-2x"></i>
+  <span id="comment-count-<%= micropost.id %>">
+    <%= micropost.comments.count %></i>
+  </span>
+  <div class="comments-list" id="comments-<%= micropost.id %>">
+    <%= render micropost.comments, micropost: micropost %>
+  </div>
 </li>

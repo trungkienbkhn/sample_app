@@ -14,6 +14,7 @@ class UsersController < ApplicationController
 
   def show
     @microposts = @user.microposts.create_desc.all.page(params[:page]).per Settings.paginate
+    @comment = current_user.comments.build
   end
 
   def create

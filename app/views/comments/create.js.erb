@@ -1,0 +1,3 @@
+$('#comments-<%= @micropost.id %>').append('<%= j render 'comments/comment', micropost: @micropost, comment: @comment %>');
+$('#comment-content-<%= @micropost.id %>').val('');
+$('#comment-count-<%= @micropost.id %>').html('<%= @micropost.comments.count %>');

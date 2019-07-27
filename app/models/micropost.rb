@@ -1,5 +1,6 @@
 class Micropost < ApplicationRecord
   belongs_to :user
+  has_many :comments, dependent: :destroy
   mount_uploader :picture, PictureUploader
   scope :create_desc, ->{order(created_at: :desc)}
   validates :user_id, presence: true

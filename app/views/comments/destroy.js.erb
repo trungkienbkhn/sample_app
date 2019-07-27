@@ -1,0 +1,2 @@
+$('#comments-<%= @micropost.id %>').html("<%= j render @micropost.comments, micropost: @micropost, comment: @comment %>");
+$('#comment-count-<%= @micropost.id %>').html('<%= @micropost.comments.count %>');
